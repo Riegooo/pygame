@@ -11,7 +11,9 @@ screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("Space War") #Sets the title of the window that appears at the top bar
 icon = pygame.image.load('icon1.png') #Load an image file as the window icon
 pygame.display.set_icon(icon) #Set the loaded image as the window icon, (icon)
-clock = pygame.time.Clock() #This is very important for controlling game’s speed
+
+#This is very important for controlling game’s speed
+clock = pygame.time.Clock() 
 
 #Game Loop
 running = True

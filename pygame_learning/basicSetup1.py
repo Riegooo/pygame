@@ -1,4 +1,4 @@
-# BASIC SETUP
+# BASIC SETUP 1
 import pygame
 from sys import exit
 
@@ -20,3 +20,5 @@ while True: #This is the main game loop. Everything that happens in your game re
     pygame.display.update() #Updates the entire window so any changes you made to the screen actually appear
     clock.tick(60) #limits your game loop to run at most 60 frames per second (FPS)
     
+    
+# py -3.12 F:\pygame\pygame_learning\basicSetup1.py

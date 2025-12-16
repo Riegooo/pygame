@@ -1,0 +1,23 @@
+#BASIC SETUP 2
+import pygame
+
+#Initialize the pygame
+pygame.init()
+
+#Create The Screen
+screen = pygame.display.set_mode((800, 600))
+pygame.display.set_caption("Page 1, BASIC SETUP 2")
+clock = pygame.time.Clock()
+
+#Game Loop
+isrunning = True
+while isrunning:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            isrunning = False
+            
+    
+    clock.tick(60)
+    
+    
+# py -3.12 F:\pygame\pygame_learning\basicSetup2.py

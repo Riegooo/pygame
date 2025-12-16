@@ -33,8 +33,5 @@ while running: #This is the main game loop. Everything that happens in your game
     
     
 #How to run this file (you can change the path depending on your folder structure):
-#Example 1 (absolute path):
+#Example (absolute path):
 #py -3.12 F:\pygame\pygame_learning\custom_window.py
-
-#Example 2 (if you are already inside the folder):
-#py -3.12 custom_window.py

@@ -21,4 +21,9 @@ while True: #This is the main game loop. Everything that happens in your game re
     clock.tick(60) #limits your game loop to run at most 60 frames per second (FPS)
     
     
-# py -3.12 F:\pygame\pygame_learning\basicSetup1.py
+#How to run this file (you can change the path depending on your folder structure):
+#Example 1 (absolute path):
+#py -3.12 F:\pygame\pygame_learning\basicSetup1.py
+
+#Example 2 (if you are already inside the folder):
+#py -3.12 basicSetup1.py

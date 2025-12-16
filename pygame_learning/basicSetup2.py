@@ -19,4 +19,9 @@ while isrunning:
     
     clock.tick(60)
 
-# py -3.12 F:\pygame\pygame_learning\basicSetup2.py
+#How to run this file (you can change the path depending on your folder structure):
+#Example 1 (absolute path):
+#py -3.12 F:\pygame\pygame_learning\basicSetup2.py
+
+#Example 2 (if you are already inside the folder):
+#py -3.12 basicSetup2.py

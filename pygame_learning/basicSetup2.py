@@ -18,6 +18,5 @@ while isrunning:
             
     
     clock.tick(60)
-    
-    
+
 # py -3.12 F:\pygame\pygame_learning\basicSetup2.py

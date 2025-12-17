@@ -1,4 +1,4 @@
-#BASIC SETUP 2
+#[ BASIC SETUP 2 ]
 
 #How to run this file (you can change the path depending on your folder structure):
 #Example 1 (absolute path):

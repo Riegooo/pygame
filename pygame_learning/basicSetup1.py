@@ -1,4 +1,12 @@
 # BASIC SETUP 1
+
+#How to run this file (you can change the path depending on your folder structure):
+#Example 1 (absolute path):
+#py -3.12 F:\pygame\pygame_learning\basicSetup1.py
+
+#Example 2 (if you are already inside the folder):
+#py -3.12 basicSetup1.py
+
 import pygame
 from sys import exit
 
@@ -15,15 +23,8 @@ while True: #This is the main game loop. Everything that happens in your game re
         if event.type == pygame.QUIT: #checks if the user clicked the close button on the window
             pygame.quit()
             exit()
-    # Draw all our elements
-    # update anything
+            
+            
     pygame.display.update() #Updates the entire window so any changes you made to the screen actually appear
     clock.tick(60) #limits your game loop to run at most 60 frames per second (FPS)
     
-    
-#How to run this file (you can change the path depending on your folder structure):
-#Example 1 (absolute path):
-#py -3.12 F:\pygame\pygame_learning\basicSetup1.py
-
-#Example 2 (if you are already inside the folder):
-#py -3.12 basicSetup1.py

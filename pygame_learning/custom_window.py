@@ -1,4 +1,9 @@
-#CHANGING THE TITLE, LOGO, AND BACKGROUND COLOR
+#[ CHANGING THE TITLE, LOGO, AND BACKGROUND COLOR ]
+
+#How to run this file (you can change the path depending on your folder structure):
+#Example (absolute path):
+#py -3.12 F:\pygame\pygame_learning\custom_window.py
+
 import pygame
 
 #Initialize the pygame
@@ -31,7 +36,3 @@ while running: #This is the main game loop. Everything that happens in your game
     #limits your game loop to run at most 60 frames per second (FPS)
     clock.tick(60) 
     
-    
-#How to run this file (you can change the path depending on your folder structure):
-#Example (absolute path):
-#py -3.12 F:\pygame\pygame_learning\custom_window.py

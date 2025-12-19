@@ -18,7 +18,7 @@ pygame.display.set_icon(icon)
 #Load the player image
 playerImg = pygame.image.load('player1.png')
 
-# Player starting position (X and Y coordinates)
+#Player starting position (X and Y coordinates)
 playerX = 370
 playerY = 400
 
